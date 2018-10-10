@@ -22,8 +22,8 @@
     background-color: rgba(135, 206, 250, 50);
 }
 #tree::indicator{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
 }
 #tree::indicator:checked{
     image: url(:/tree/Resources/ckChecked_normal.png);
