@@ -26,6 +26,8 @@ public:
 
     int getLevel();
 
+    QString getName();
+
 private:
     int rotation();
 

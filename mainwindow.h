@@ -18,6 +18,9 @@ public:
     void init();
     void updateParentItem(QTreeWidgetItem* item);
 
+    void setParentPartiallyChecked(QTreeWidgetItem *itm);
+
+
     QTreeWidgetItem* addChildNode(QTreeWidgetItem *parent, int index, QString namePre);
     QTreeWidgetItem* addChildEmpNode(QTreeWidgetItem *parent, int index);
 

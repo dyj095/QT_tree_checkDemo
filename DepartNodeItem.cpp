@@ -55,6 +55,11 @@ int DepartNodeItem::getLevel()
     return this->m_level;
 }
 
+QString DepartNodeItem::getName()
+{
+    return this->m_name;
+}
+
 int DepartNodeItem::rotation()
 {
     return m_rotation;
