@@ -1,0 +1,82 @@
+﻿#tree{
+    outline:0px;
+}
+#tree
+{
+   border-style:none;
+}
+
+
+#tree::item
+{
+   color:rgba(255, 255, 255, 0);
+}
+
+#tree::item:selected:active
+{
+    background-color: rgba(135, 206, 250, 153);
+}
+
+#tree::item:selected:!active, QTreeView::item:hover
+{
+    background-color: rgba(135, 206, 250, 50);
+}
+#tree::indicator:checked{
+        image: url(:/tree/Resources/ckChecked_normal.png);
+}
+#tree::indicator:unchecked{
+    image: url(:/tree/Resources/ckUncheck_normal.png);
+}
+#tree::indicator:indeterminate{
+    image: url(:/tree/Resources/ckChecked_unable.png);
+}
+/*
+
+
+#tree{
+    font: 15px "ubuntu";
+}
+
+#tree::focus{
+    outline: none;
+}
+#tree::item:selected{
+
+    border:1px solid transparent;
+    font: 15px "ubuntu";
+    color:#51637e;
+}
+
+#tree::indicator:checked{
+        image: url(:/tree/Resources/ckChecked_normal.png);
+}
+#tree::indicator:unchecked{
+    image: url(:/tree/Resources/ckUncheck_normal.png);
+}
+#tree::indicator:checked:hover{
+        image: url(:/tree/Resources/ckChecked_hot.png);
+}
+#tree::indicator:checked:press{
+        image: url(:/tree/Resources/ckChecked_press.png);
+}*/
+
+/*
+#tree::indicator:unchecked:hover{
+    image: url(:/tree/Resources/ckUncheck_hot.png);
+}
+#tree::indicator:unchecked:press{
+    image: url(:/tree/Resources/ckUncheck_press.png);
+}*/
+
+/*
+#tree::branch {
+        background: white;
+}
+#tree::branch:closed:has-children{
+    image:url(:/element/element/close.png);
+}
+
+#tree::branch::open::has-children{
+    image:url(:/element/element/open2.png);
+}
+*/

@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/tree">
+        <file>Resources/QSS/MainWindow.css</file>
+        <file>Resources/0.png</file>
+        <file>Resources/15.png</file>
+        <file>Resources/30.png</file>
+        <file>Resources/45.png</file>
+        <file>Resources/60.png</file>
+        <file>Resources/75.png</file>
+        <file>Resources/90.png</file>
+        <file>Resources/arrow.png</file>
+        <file>Resources/arrow_normal.gft.png</file>
+        <file>Resources/defaultPic.png</file>
+        <file>Resources/head_mask.png</file>
+        <file>Resources/ckChecked_normal.png</file>
+        <file>Resources/ckChecked_unable.png</file>
+        <file>Resources/ckUncheck_hot.png</file>
+        <file>Resources/ckUncheck_normal.png</file>
+    </qresource>
+</RCC>
