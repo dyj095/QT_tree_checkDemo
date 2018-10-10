@@ -21,8 +21,12 @@
 {
     background-color: rgba(135, 206, 250, 50);
 }
+#tree::indicator{
+    width: 18px;
+    height: 18px;
+}
 #tree::indicator:checked{
-        image: url(:/tree/Resources/ckChecked_normal.png);
+    image: url(:/tree/Resources/ckChecked_normal.png);
 }
 #tree::indicator:unchecked{
     image: url(:/tree/Resources/ckUncheck_normal.png);
@@ -46,29 +50,6 @@
     font: 15px "ubuntu";
     color:#51637e;
 }
-
-#tree::indicator:checked{
-        image: url(:/tree/Resources/ckChecked_normal.png);
-}
-#tree::indicator:unchecked{
-    image: url(:/tree/Resources/ckUncheck_normal.png);
-}
-#tree::indicator:checked:hover{
-        image: url(:/tree/Resources/ckChecked_hot.png);
-}
-#tree::indicator:checked:press{
-        image: url(:/tree/Resources/ckChecked_press.png);
-}*/
-
-/*
-#tree::indicator:unchecked:hover{
-    image: url(:/tree/Resources/ckUncheck_hot.png);
-}
-#tree::indicator:unchecked:press{
-    image: url(:/tree/Resources/ckUncheck_press.png);
-}*/
-
-/*
 #tree::branch {
         background: white;
 }
